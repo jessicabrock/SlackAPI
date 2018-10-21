@@ -24,7 +24,7 @@ $ pipenv run python app.py
 ## Basics
 
 1. Fork/Clone git repo
-1. Follow instructions above
+2. Follow instructions above
 
 ## Testing Your Token
 
@@ -39,5 +39,5 @@ If you get False check your testing token.
 
 Next check for authorization to the Slack account:
 >>> sc.api_call("auth.test")
-{'ok': True, 'url': 'https://pygirls.slack.com/', 'team': 'PyGirls', 'user': 'jessicabrock03', 'team_id': 'T8FCP5E8K',...}
+{'ok': True, 'url': 'https://pygirls.slack.com/', 'team': 'PyGirls', 'user':  'jessicabrock03', 'team_id': 'T8FCP5E8K',...}
 
