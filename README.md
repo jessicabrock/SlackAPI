@@ -30,14 +30,13 @@ $ pipenv run python app.py
 
 Open Python at the command prompt:<br />
 $ python<br />
-">>> from slackclient import SlackClient"<br />
-"">>> sc = SlackClient('enter test token here')"<br />
-"">>> sc.api_call("api.test")"<br />
+from slackclient import SlackClient <br />
+sc = SlackClient('enter test token here') <br />
+sc.api_call("api.test") <br />
 {'ok': True,...}
 
 If you get False check your testing token.
 
 Next check for authorization to the Slack account:<br />
-"">>> sc.api_call("auth.test")"<br />
+sc.api_call("auth.test")<br />
 {'ok': True, 'url': 'https://pygirls.slack.com/', 'team': 'PyGirls', 'user':  'jessicabrock03', 'team_id': 'T8FCP5E8K',...}
-
