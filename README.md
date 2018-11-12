@@ -18,7 +18,6 @@ $ pipenv install slackclient<br />
 $ pipenv shell<br />
 $ export SLACK_TOKEN="<your token goes here>"<br />
 $ pipenv run python test.py<br />
-<!-- if all test pass --><br />
 $ pipenv run python app.py<br />
 
 ## Basics
