@@ -7,7 +7,7 @@ SLACK_TOKEN = os.environ.get('SLACK_TOKEN')
 SLACK_CLIENT = SlackClient(SLACK_TOKEN)
 
 
-def list_channels():
+def get_channel_lisitng():
     """ should return two keys: ok and channels
         ok should return True if API call was successful
         channels will then return a list of channels
@@ -18,7 +18,7 @@ def list_channels():
     return None
 
 if __name__ == '__main__':
-    channels = list_channels()
+    channels = get_channel_lisitng()
     if channels:
         print("Channels: ")
         for c in channels:
