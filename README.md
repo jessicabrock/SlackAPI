@@ -13,10 +13,11 @@ Flask app to learn the basics of the Slack API.
 Get a Slack API testing token from here:<br />
 https://api.slack.com/slack-apps
 
+Create a .env file to hold your token key.
+
 $ pip install pipenv<br />
 $ pipenv install slackclient<br />
-$ pipenv shell<br />
-$ export SLACK_TOKEN="<your token goes here>"<br />
+$ pipenv check   # verify setup is correct
 $ pipenv run python test.py<br />
 $ pipenv run python app.py<br />
 
